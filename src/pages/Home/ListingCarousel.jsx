@@ -160,6 +160,7 @@ const ListingCarousel = ({ data, category, title, viewMorePath }) => {
             </Typography>
             <Typography
               variant="viewMore"
+              sx={{cursor:!viewMorePath&&"not-allowed"}}
               onClick={() => viewMorePath && navigate(viewMorePath)}
             >
               {t("View More")} →

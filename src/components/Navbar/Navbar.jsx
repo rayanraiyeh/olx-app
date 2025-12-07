@@ -97,7 +97,7 @@ function Navbar() {
             >
               <Box
                 sx={{
-                  width: { xs: 40, sm: 48 },
+                  width: { xs: "auto" },
                   height: { xs: 40, sm: 48 },
                   mr: { xs: 1, sm: 2 },
                 }}
