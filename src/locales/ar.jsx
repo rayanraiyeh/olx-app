@@ -1,6 +1,18 @@
 export const ar = {
+  // Common
   Home: "الرئيسية",
   "Post Ad": "انشر إعلانك",
+  Search: "بحث",
+  Location: "الموقع",
+  Language: "اللغة",
+  "Loading...": "جاري التحميل...",
+  Error: "خطأ",
+  Submit: "إرسال",
+  Cancel: "إلغاء",
+  Next: "التالي",
+  Previous: "السابق",
+  Required: "مطلوب",
+  Back: "رجوع",
 
   // Phone Listings
   "Mobile Phones": "الهواتف المحمولة",
@@ -25,33 +37,18 @@ export const ar = {
   WhatsApp: "واتساب",
   "Member since": "عضو منذ",
   "Verified Business": "عمل موثق",
-  Search: "بحث",
-  Location: "الموقع",
-  Language: "اللغة",
-  "Loading...": "جاري التحميل...",
-  Error: "خطأ",
-  Submit: "إرسال",
-  Cancel: "إلغاء",
-  Next: "التالي",
-  Previous: "السابق",
-  Required: "مطلوب",
 
   // Header
-  Sell: "بيع الآن",
   Sell: "بيع",
-
   Login: "تسجيل الدخول",
   "All Categories": "جميع الفئات",
 
   // Home
   "OLX Lebanon": "أوليكس لبنان",
-  "Find Cars, Mobile Phones and more...":
-    "ابحث عن سيارات، هواتف نقالة والمزيد...",
+  "Find Cars, Mobile Phones and more...": "ابحث عن سيارات، هواتف نقالة والمزيد...",
   "All categories": "جميع الفئات",
   "Featured Ads": "إعلانات مميزة",
   "Recent Ads": "إعلانات حديثة",
-  "Cars for Sale": "سيارات للبيع",
-  "Mobile Phones": "هواتف نقالة",
   Apartments: "شقق",
   "View More": "عرض المزيد",
 
@@ -70,6 +67,9 @@ export const ar = {
   "Select location": "اختر الموقع",
   "Ad posted successfully!": "تم نشر الإعلان بنجاح!",
   "Failed to post ad": "فشل نشر الإعلان",
+  "Post Now": "انشر الآن",
+  "Loading categories": "جاري تحميل الفئات",
+  "Loading form fields": "جاري تحميل حقول النموذج",
 
   // Categories
   Vehicles: "المركبات",
@@ -85,11 +85,13 @@ export const ar = {
   Jobs: "الوظائف",
   Fashion: "الأزياء",
   Services: "الخدمات",
+  Categories: "الفئات",
 
   // Footer - Popular Categories
   "Popular Categories": "الفئات الشائعة",
   Cars: "سيارات",
   "Flats for rent": "شقق للإيجار",
+  "Apartments & Villas for Sale": "شقق وفيلات للبيع",
 
   // Footer - Trending Searches
   "Trending Searches": "عمليات البحث الرائجة",
@@ -120,24 +122,17 @@ export const ar = {
   "This field is required": "هذا الحقل مطلوب",
   "Invalid price": "السعر غير صالح",
 
+  // Additional
   "View more": "عرض المزيد",
-  "Apartments & Villas for Sale": "شقق وفيلات للبيع",
-  "Mobile Phones": "هواتف محمولة",
-  "Cars for Sale": "سيارات للبيع",
-
   "Download OLX app now!": "حمّل تطبيق OLX الآن!",
   "Find amazing deals on the go.": "اعثر على عروض رائعة أثناء التنقل.",
-  Back: "رجوع",
   "Need help getting started?": "هل تحتاج مساعدة للبدء؟",
   "Review these resource to learn how to create a great ad and increase your selling chances":
     "راجع هذه الموارد لتتعلم كيفية إنشاء إعلان رائع وزيادة فرص البيع",
   "Tips for improving your ads and your chances of selling":
     "نصائح لتحسين إعلاناتك وزيادة فرص البيع",
-  "All you need to know about Posting Ads":
-    "كل ما تحتاج معرفته عن نشر الإعلانات",
-  "You can always come back to change your ad":
-    "يمكنك دائماً العودة لتعديل إعلانك",
-  Categories: "الفئات",
+  "All you need to know about Posting Ads": "كل ما تحتاج معرفته عن نشر الإعلانات",
+  "You can always come back to change your ad": "يمكنك دائماً العودة لتعديل إعلانك",
   "Property Details": "تفاصيل العقار",
   "Additional Details": "تفاصيل إضافية",
   "Ad title": "عنوان الإعلان",
@@ -156,8 +151,4 @@ export const ar = {
   "Describe the item you're selling": "صف العنصر الذي تبيعه",
   "For the cover picture we recommend using the landscape mode":
     "للصورة الغلاف نوصي باستخدام الوضع الأفقي",
-      "Post Now": "انشر الآن",
-       "Loading categories": "جاري تحميل الفئات",
-  "Loading form fields": "جاري تحميل حقول النموذج"
-
 };
