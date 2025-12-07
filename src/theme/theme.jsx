@@ -129,6 +129,7 @@ theme.components = {
         style: {
           paddingTop: 12,
           paddingBottom: 12,
+          border: "1px solid",
           borderColor: theme.palette.divider,
           color: theme.palette.text.primary,
           "&:hover": {
@@ -142,6 +143,8 @@ theme.components = {
         style: {
           paddingTop: 12,
           paddingBottom: 12,
+          border: "1px solid",
+          borderColor: theme.palette.divider,
           backgroundColor: theme.palette.success.light,
           color: theme.palette.text.primary,
           fontWeight: "bold",
@@ -153,8 +156,9 @@ theme.components = {
       {
         props: { variant: "shareAction" },
         style: {
-          borderColor: theme.palette.divider,
           color: theme.palette.text.primary,
+          border: "1px solid",
+          borderColor: theme.palette.divider,
         },
       },
       {

@@ -35,13 +35,12 @@ const CategoryCard = ({ category, onClick }) => {
   );
 };
 
-// Skeleton for category card
 const CategorySkeleton = () => {
   return (
     <div className="flex flex-col items-center gap-4">
       <Skeleton
         variant="circular"
-        className="w-[100px] sm:w-[120px] md:w-[140px] h-[100px] sm:h-[120px] md:h-[140px]"
+        sx={{width:"100px",height:"100px"}}
       />
       <Skeleton variant="text" className="w-[120px] h-6" />
     </div>
